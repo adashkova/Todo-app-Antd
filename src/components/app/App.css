@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 600px;
+  min-height: 400px;
+  box-shadow: 6px 4px 13px 1px rgba(34, 60, 80, 0.3);
+  flex-direction: column;
+  padding: 20px;
+
+  background: linear-gradient(
+    303deg,
+    rgba(32, 154, 201, 0.7874095659163987) 0%,
+    rgba(173, 230, 245, 0.5462520096463023) 35%,
+    rgba(44, 213, 247, 0.8292102090032155) 100%
+  );
+  margin: 50px auto;
+}
+
+h1 {
+  color: #152d35;
+  margin-bottom: 20px;
+}

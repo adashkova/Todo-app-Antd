@@ -1,0 +1,15 @@
+.form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.input {
+  width: 285px;
+  height: 45px;
+  margin-right: 10px;
+}
+.add_btn {
+  height: 42px;
+  min-width: 70px;
+}
